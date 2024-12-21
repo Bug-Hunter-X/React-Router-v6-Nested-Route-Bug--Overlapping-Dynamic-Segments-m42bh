@@ -1,0 +1,3 @@
+# React Router v6 Nested Route Bug: Overlapping Dynamic Segments
+
+This repository demonstrates a common bug in React Router v6 when using nested routes with overlapping dynamic segments.  The bug causes unexpected routing behavior, potentially leading to incorrect component rendering or infinite rendering loops.  The solution shows how to correctly structure nested routes to avoid this issue by using wildcard paths (*) for parent paths, thus ensuring that the more specific paths are given precedence.
